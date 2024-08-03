@@ -110,6 +110,10 @@ span {
 .details a:hover {
     background-color: burlywood; /* Hover effect for buttons */
 }
+.details BUTTON {
+    background-color: rgb(11, 11, 10); /* Hover effect for buttons */
+    color: antiquewhite;
+}
 
 .image {
     width: 50%;
