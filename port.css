@@ -1,0 +1,335 @@
+body {
+    height: 123vh;
+    margin-top: 80px;
+    padding: 30px;
+    color: #212121;
+    background-color: antiquewhite;
+  background-size: cover;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    z-index: 1000; /* Ensures header stays on top */
+}
+
+h3 {
+    margin: 60px;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+header nav {
+    margin: auto;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex; /* Ensures horizontal alignment */
+    gap: 20px; /* Space between list items */
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block; /* Better for inline navigation */
+}
+
+header li a {
+    color: rgb(247, 223, 172);
+    text-decoration: none;
+    font-size: 16px; /* Consistent font size */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+header li a:hover {
+    color: antiquewhite; /* Hover effect for links */
+}
+
+header button {
+    margin-right: 60px;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 130px;
+    height: 38px;
+    border: none; /* Removes default border */
+    font-size: 14px; /* Consistent font size */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+header button:hover {
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.details h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: burlywood;
+    margin-left: 20px;
+}
+
+.details p {
+    color: #050505;
+    line-height: 1.5; /* Improved line height for readability */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+.details a {
+    text-decoration: none;
+    padding: 10px 20px; /* Slightly larger padding for better click area */
+    background-color: #212121;
+    font-weight: bold;
+    color: antiquewhite;
+    display: inline-block;
+    margin: 30px 0;
+    margin-left: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.details a:hover {
+    background-color: burlywood; /* Hover effect for buttons */
+}
+
+.image {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align images in a column */
+}
+
+.image img {
+    height: 380px;
+    width: 380px;
+    border: 1px;
+    border-color: black;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures image fits within the circle */
+    margin-bottom: 410px; /* Space between images */
+}
+
+.port {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 100px; /* Avoid content overlap with fixed header */
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    
+    
+   
+}
+.f{
+    background-color: #212121;
+    width: 1300px;
+}
+.footer h1{
+    margin-left:20px;
+   
+   }
+   .footer ul{
+       margin-right:20px
+       
+   }
+
+.details{
+    margin-bottom: 320px;
+}
+
+.pre{
+    font-style: italic;
+    font-size:14px;
+    margin-right:160px;
+    margin-left:100px
+
+}
+#ab{
+    margin-left: 350px;
+    margin-right:80px;
+}
+.footer a:hover {
+    background-color: rgb(10, 11, 11); /* Hover effect for buttons */
+    color: rgb(241, 151, 34);
+}
+.footer a {
+   color: antiquewhite;
+   text-decoration: none;
+}
+#skills{
+    border:10px solid black;
+}
+
+#skills{
+    text-align: center;
+}
+#fskills{
+    display: flex;
+    gap: 50px;
+    color: black;
+    font-size: 45px;
+    margin: 60px 60px 60px 500px;
+}
+#fskills {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 50px; /* Space between the items */
+    color: black;
+    font-size: 45px;
+    margin: 60px auto; /* Center the container itself */
+    width: auto; /* Ensures the container width adjusts to its content */
+}
+
+#fskills div {
+    border: 2px solid #000; /* Black border */
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block; /* Makes the divs align horizontally */
+}
+.HTML {
+    border: 2px solid red; /* Red border for HTML */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: red;
+      border-radius: 50%;
+}
+
+.CSS {
+    border: 2px solid blue; /* Blue border for CSS */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.JS {
+    border: 2px solid yellow; /* Yellow border for JS */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50%;
+
+    background-color: yellow;
+}
+.PHP {
+    border: 2px solid rgba(154, 23, 130, 0.458); /* Yellow border for JS */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(103, 4, 112);
+}
+
+
+#tskills{
+    display: flex;
+    gap: 50px;
+    color: black;
+    font-size: 45px;
+    margin: 60px 60px 60px 500px;
+}
+#tskills {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 50px; /* Space between the items */
+    color: black;
+    font-size: 45px;
+    margin: 60px auto; /* Center the container itself */
+    width: auto; /* Ensures the container width adjusts to its content */
+}
+
+#tskills div {
+    border: 2px solid #000; /* Black border */
+    padding: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block; /* Makes the divs align horizontally */
+}
+
+
+.JAVA {
+    border: 2px solid rgb(240, 93, 198); /* Blue border for CSS */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(240, 93, 198);
+}
+
+.dbms {
+    border: 2px solid yellow; /* Yellow border for JS */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50%;
+ background-color: rgb(52, 180, 249);
+}
+.DSA {
+    border: 2px solid rgba(154, 23, 130, 0.458); /* Yellow border for JS */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(80, 179, 99);
+}
+.CPP {
+    border: 2px solid rgba(238, 82, 4, 0.963); /* Yellow border for JS */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(219, 132, 186);
+}
+#blog{
+    border: 10px solid black;
+    margin: 100px;
+}
+#blog p{
+    font-size: 20px;
+    
+    font-style: italic ;
+   
+    margin:60px auto;
+    padding: 20px;
+}
+#blog h1{
+    text-align: center;
+}
